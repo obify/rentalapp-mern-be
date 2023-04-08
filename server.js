@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-
+require('dotenv').config();
 global.__basedir = __dirname;
 
 const mongoose = require('mongoose');
